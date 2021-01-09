@@ -5,12 +5,12 @@
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
-      {{> burgers/burgers-block sleep=true}}
+      {{> burgers/burgers-block devoured=true}}
     {{/unless}}
   {{/each}}
 </ul>
 
-<h2> that are devoured!</h2>
+<h2> Burgers that are devoured!</h2>
 
 <ul>
   {{#each burgers}}
