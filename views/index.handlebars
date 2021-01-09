@@ -1,30 +1,30 @@
 <h1>Burgers!</h1>
 
-<h2> that are not devoured!</h2>
+<h2> Burgers that are delicious!</h2>
 
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
-      {{> burgers/cat-block sleep=true}}
+      {{> burgers/burgers-block sleep=true}}
     {{/unless}}
   {{/each}}
 </ul>
 
-<h2>Cats that are devoured!</h2>
+<h2> that are devoured!</h2>
 
 <ul>
   {{#each burgers}}
     {{#if devoured}}
-      {{> burgers/cat-block sleep=false}}
+      {{> burgers/burger-block devoured=false}}
     {{/if}}
   {{/each}}
 </ul>
 
-<h2>Add a Cat</h2>
+<h2>Add a Burgers</h2>
 <form class="create-form">
 
   <div class="form-group">
-    <label for="ca">Cat Name:</label>
+    <label for="ca">Burgers Name:</label>
     <input type="text" id="ca" name="name">
   </div>
 
