@@ -1,10 +1,20 @@
 li {
-    padding: 20px;
-    margin: 20px;
+     padding: 20px;
+    margin: 20px; 
     background:rgb(252, 191, 73);
     position: relative;
   }
-  
+   .content-burger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(214, 40, 40);
+    /* padding: 10px;
+    height: 90px;
+    border-radius: 4px;
+    margin-top:20px; */
+
+  }
   .buttom {
     justify-content: center;
   }
@@ -18,27 +28,22 @@ li {
     background: aqua;
   }
   
-  .form-group {
+  /* .form-group {
     margin-bottom: 100px;
     color:blue
-  }
+  } */
   
   body {
-    background-color:rgb(214, 40, 40);
-    width:100%;
-    height: 50%;
-    max-height: 50%;
-    margin: 20px;
-    padding: 0;
-    background-size:100px;
-    background-repeat: no-repeat;
+    background-image: url("../img/fire_burger.jpg");
+    background-size:cover ;
+    
+    
   }
 
   h1 {
     font-style: italic;
     font-size: 40px;
     text-align:  center;
-    text-shadow: rgb(35, 162, 176) ;
-  }
+    }
 
   
