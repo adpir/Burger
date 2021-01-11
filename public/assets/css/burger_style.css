@@ -1,7 +1,8 @@
 li {
-     padding: 20px;
+    padding: 20px;
     margin: 20px; 
-    background:rgb(252, 191, 73);
+    background:rgb(124, 41, 41);
+    opacity: 0.6;
     position: relative;
   }
    .content-burger {
@@ -15,12 +16,20 @@ li {
     margin-top:20px; */
 
   }
-  .buttom {
-    justify-content: center;
-  }
   .label {
-    font-weight: bold;
+    display:inherit;
+   margin-top: 20px;
+   
+  } 
+  .submit {
+    padding: 5px;
+    margin: 10px;
+    
   }
+  /* .label {
+    font-weight: bold;
+    text-align: center;
+  } */
   
   .create-update-form {
     padding: 5px;
@@ -28,22 +37,29 @@ li {
     background: aqua;
   }
   
-  /* .form-group {
-    margin-bottom: 100px;
-    color:blue
-  } */
+   /* .input {
+  justify-content: center;
+    color:blue;
+    
+
+  }  */
   
   body {
-    background-image: url("../img/fire_burger.jpg");
-    background-size:cover ;
-    
-    
+    background-image:url("..//img/burges12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
   }
 
   h1 {
     font-style: italic;
     font-size: 40px;
     text-align:  center;
+    color: lavender;
+    }
+
+    h2 {
+      color: lavender;
     }
 
   
