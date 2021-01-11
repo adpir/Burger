@@ -1,4 +1,4 @@
-<h1 align= "center">:hamburger: *Burger* :hamburger: <h1>
+<h1 align= "center">:hamburger: Burger :hamburger: <h1>
  
 
 
