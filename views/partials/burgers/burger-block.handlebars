@@ -2,8 +2,13 @@
 	{{burger_name}} 
     {{#if devoured}} 
 
-	<button class="change-devoured" data-id="{{this.id}}" data-newdevoured="{{this.devoured}}">
-	Devoured TIME 
+	<button class="btn btn-primary change-devoured" data-id="{{this.id}}" data-newdevoured="{{this.devoured}}">
+   <img src="/assets/img/small-juicy.jpg" width="50" height="50" alt="{{this.burger_name}}"> 
+
+
 	</button>
+    {{/if}}
+	<button class="btn btn-primary  delete-burger" data-id="{{this.id}}">DELETE!</button>
 
 </li>
+{{!-- change-devoured --}}

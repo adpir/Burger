@@ -1,52 +1,57 @@
 li {
-    padding: 20px;
-    margin: 20px; 
-    background:rgb(124, 41, 41);
-    opacity: 0.6;
-    position: relative;
-  }
-   .content-burger {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(214, 40, 40);
-    /* padding: 10px;
-    height: 90px;
-    border-radius: 4px;
-    margin-top:20px; */
+  padding: 40px;
+  margin: 40px;
+  background: rgb(124, 41, 41);
+  opacity: 0.6;
+  position: relative;
+  font: 40px;
+}
 
-  }
-  .label {
-    display:inherit;
-   margin-top: 20px;
-   
-  } 
-  .submit {
-    padding: 5px;
-    margin: 10px;
+label {
+  display: inline-flexbox;
+  margin-top: 20px;
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Press Start 2P", cursive;
+  font-family: "Shrikhand", cursive;
+}
+
+h2 {
+  color: rgb(220, 47, 2);
+  font-family: 'Press Start 2P', cursive;
+font-family: 'Shrikhand', cursive;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: rgb(232, 113, 4);
+  text-shadow: 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(255, 36, 36, 0.15);
+  font-family: "Press Start 2P", cursive;
+}
+
+.submit {
+  padding: 5px;
+  margin: 10px;
+}
+/* .label {
     
-  }
-  /* .label {
-    font-weight: bold;
-    text-align: center;
   } */
-  
-  .create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
-  }
-  
-   /* .input {
-  justify-content: center;
-    color:blue;
-    
 
-  }  */
-  
-  body {
-    background-image:url("..//img/burges12.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-  }
+.col-lg-12 {
+  padding: 10px;
+  margin: 20px;
+  background: rgb(124, 41, 41);
+  opacity: 0.6;
+  position: relative;
+}
+
+body {
+  background-image: url("..//img/burges12.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
