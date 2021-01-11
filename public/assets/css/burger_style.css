@@ -5,6 +5,8 @@ li {
   opacity: 0.6;
   position: relative;
   font: 40px;
+  border-style: outset;
+  border-color: rgb(85, 166, 48);
 }
 
 label {
@@ -35,9 +37,21 @@ h1 {
 }
 
 .submit {
-  padding: 5px;
+  padding: 10px;
   margin: 10px;
+  background-color: rgb(220, 47, 2);
+  animation-name: submit;
+  animation-duration: 10s;
+  color: black;
+  font-size: 15px;
+  font-family: 'Press Start 2P', cursive;
 }
+
+@keyframes submit {
+  from {background-color: rgb(220, 47, 2);}
+  to {background-color:rgb(85, 166, 48)}
+}
+
 /* .label {
     
   } */
