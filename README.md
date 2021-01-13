@@ -28,8 +28,8 @@ Each burger in the waiting area also has a Devour it! button. When the user clic
 Your app will store every burger in a database, whether devoured or not.
 
 ### :camera: Visuals:
-
-
+![Giphy](./public/assets/img/code.gif) <br>
+![images](./public/assets/img/belly.png)
 
 
 
@@ -149,14 +149,14 @@ Please make sure to update tests as appropriate.
 
 ### :octocat: Profile:
 
-[GitHub]
+[GitHub](https://github.com/adpir/Burger)<br>
 [Heroku]
 
 
 
 ### :copyright: License
 
-[MIT](https://github.com) All rights reserved.
+[MIT](https://github.com/adpir/Burger/blob/main/LICENSE) All rights reserved.
 
 
 

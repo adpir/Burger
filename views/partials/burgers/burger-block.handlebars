@@ -2,13 +2,16 @@
 	{{burger_name}} 
     {{#if devoured}} 
 
-	<button class="btn btn-primary change-devoured" data-id="{{this.id}}" data-newdevoured="{{this.devoured}}">
-   <img src="https://media.giphy.com/media/K4x1ZL36xWCf6/giphy.gif" width="50" height="50" alt="{{this.burger_name}}"> 
+	<button class="btn btn change-devoured" data-id="{{this.id}}" data-newdevoured="{{this.devoured}}">
+   <img src="assets/img/BUR-min.gif" width="100" height="100" alt="{{this.burger_name}}"> 
 
 
 	</button>
     {{/if}}
-	<button class="btn btn-primary  delete-burger" data-id="{{this.id}}">DELETE!</button>
+	 
+	<div class="btn btn-success delete-burger" data-id="{{this.id}}">Delete</div>
+      
+
 
 </li>
 {{!-- change-devoured --}}

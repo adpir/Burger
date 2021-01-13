@@ -1,18 +1,17 @@
 li {
   padding: 40px;
   margin: 40px;
+  margin-bottom: 20px;
   background: rgb(124, 41, 41);
-  opacity: 0.6;
+  opacity: 0.8;
   position: relative;
   border-style: outset;
   border-color: rgb(85, 166, 48);
   font-size: 20px;
   font-family: 'Press Start 2P', cursive;
- color: rgb(85, 166, 48);;
+  color: rgb(85, 166, 48);
+  
 }
-
-
-
 
 label {
   display: inline-flexbox;
@@ -24,10 +23,20 @@ label {
   font-family: "Shrikhand", cursive;
 }
 
+h3 {
+  color: rgb(220, 47, 2);
+  font-size: 40px;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Shrikhand', cursive;
+  text-align: center;
+}
 h2 {
   color: rgb(220, 47, 2);
+  font-size: 40px;
+  text-shadow: 2px 2px black;
   font-family: 'Press Start 2P', cursive;
-font-family: 'Shrikhand', cursive;
+  font-family: 'Shrikhand', cursive;
+  text-align: center;
 }
 h1 {
   font-size: 60px;
@@ -62,7 +71,7 @@ h1 {
   padding: 10px;
   margin: 20px;
   background: rgb(124, 41, 41);
-  opacity: 0.6;
+  opacity: 0.7;
   position: relative;
 }
 
@@ -71,3 +80,17 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.btn-primary {
+  color: rgb(220, 47, 2);
+}
+.austin-powrs img {
+  position:absolute;
+      top: 0px;
+      right: 0px;
+      z-index: -1;
+      scroll-margin-left: -30px; 
+      width: 20%;
+      height: 13%;
+    
+} 
+
